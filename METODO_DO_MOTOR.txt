@@ -1,0 +1,33 @@
+DUPLA SENA CAMPEÃ - GRUPO 25 V1
+================================
+
+1) Lê TXT/CSV e procura, em cada linha, dois blocos válidos de 6 dezenas entre 01 e 50.
+
+2) GRUPO CAMPEÃO 25
+   - inicia pela força individual das dezenas;
+   - usa milhares de mutações/trocas determinísticas;
+   - mede quantos 6/6 o grupo conteve no 1º sorteio;
+   - mede quantos 6/6 conteve no 2º sorteio;
+   - maximiza o total e preserva equilíbrio entre os dois sorteios.
+
+3) GRUPO FORTE MAIS ATRASADO 25
+   - parte do campeão e cria grupos alternativos;
+   - exige força histórica mínima relativa ao campeão;
+   - prioriza maior atraso atual sem 6/6;
+   - desempata por força histórica e pressão.
+
+4) JOGO DE 6
+   - cada grupo de 25 gera exatamente 177.100 combinações;
+   - todas são percorridas;
+   - filtro estrutural é aprendido na base;
+   - pré-seleciona os candidatos mais fortes;
+   - aprofunda no perímetro recente separando 1º e 2º sorteios;
+   - elimina jogo que já fez 6/6 no perímetro;
+   - prioriza quinas, quadras, ternos, força recente e equilíbrio entre os dois sorteios.
+
+5) SAÍDA
+   - Jogo 1 = Grupo Campeão;
+   - Jogo 2 = Grupo Forte Mais Atrasado;
+   - PDF até 2 páginas com volante 01-50 colorido.
+
+ESTUDO ESTATÍSTICO. NÃO GARANTE PREMIAÇÃO.
